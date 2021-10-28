@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+}
+#container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: gainsboro;
+    box-shadow: 0px 0px 20px grey;
+}
+header{
+    background-color: rgb(40, 146, 190);
+    padding: 1px;
+}
+header img{
+    width: 100%;
+
+}
+
+nav {
+    
+    
+    width: 20%;
+    float: left;
+}
+#contenido {
+    width: 80%;
+    float: right;
+    padding-bottom: 24px;
+}
+footer{
+    background-color:rgb(40, 146, 190);
+    color: rgb(13, 13, 58);
+    text-align: center;
+    font-size: 30px;
+    padding: 6px;
+}
+
+.cb {
+    clear: both;
+}
+nav ul, nav li {
+    padding: 0;
+    margin: 0;
+
+}
+nav li{
+    list-style-type: none;
+    font-size: 22px;
+    
+    color: rgb(50, 0, 78);
+    padding: 8px;
+    margin: 5px 5px ;
+    border: solid 1px rgb(50, 0, 78);
+    border-radius: 10px;
+}
+nav li:hover {
+    background-color: rgb(50, 0, 78);
+    color: rgb(207, 165, 235);
+
+}
+.azulo {
+    color: rgb(50, 0, 78);
+}
+a {
+    text-decoration: none;
+}
+#home{
+    text-align: center;
+}
+.encabezado {
+    color: darkblue;
+    text-align: center;
+}
+#contenido2 {
+    font-size: 13px;
+}
+.etiqueta {
+    font-size: 30px;
+    color: crimson;
+}
+.titulo {
+    text-align: center;
+}
+#tablas table {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: center;
+}
+
+#tabladefault th, #tablacombi th {
+    background-color: rgb(7, 7, 70);
+    color: cornflowerblue;
+}
+#tabladefault td, #tablacombi td {
+    background-color: cornflowerblue;
+    color: rgb(7, 7, 70);
+}
+#tablaparimpar tr:nth-child(odd) td{
+    background-color: rgb(243, 204, 204) ;
+}
+#tablaparimpar tr:nth-child(even) td{
+    background-color: rgb(205, 205, 241);
+}
+#tablaparimpar th {
+    background-color: rgb(7, 7, 70);
+    color: cornflowerblue;
+}
+#tablas #thorario table {
+    width: 90%;
+    margin: 0 auto;
+}
+#thorario th {
+    color: #008080;
+}
+#thorario td, #thorario th,#thorario table {
+    border: solid 1px black;
+}
+.lm {
+    background-color: #01B95C;
+}
+.prog {
+    background-color: #80FFFF;
+}
+.txt-24 {
+    font-size: 26px;
+}
+.txt-25 {
+    color: #008080;
+}
+.customo li li {
+    list-style: upper-alpha;
+}
+.customo li li li {
+    list-style:upper-roman;
+}
+.customd li  {
+    list-style:square;
+}
+.customd li li {
+
+}
+.customd li li li{
+    list-style:circle ;
+}
